@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonBase", "CommonBase\CommonBase.csproj", "{F340779F-0F76-4F85-AC8F-AF7A293E3DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.Logic", "EventManager.Logic\EventManager.Logic.csproj", "{49C80D95-0E51-46BB-8C18-DB3DE106B9C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.Contracts", "EventManager.Contracts\EventManager.Contracts.csproj", "{2C7F4893-5F9B-495C-BE43-7ED35C4723B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.Transfer", "EventManager.Transfer\EventManager.Transfer.csproj", "{4F540D02-D242-494B-9D51-3161A2A7BE16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.WebApi", "EventManager.WebApi\EventManager.WebApi.csproj", "{E41C2865-AFD7-4AC8-B1AC-C841574815A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventManager.AspMvc", "EventManager.AspMvc\EventManager.AspMvc.csproj", "{CC0D4A13-BA01-4E0B-86BA-CE69B9A2C5B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F340779F-0F76-4F85-AC8F-AF7A293E3DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F340779F-0F76-4F85-AC8F-AF7A293E3DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F340779F-0F76-4F85-AC8F-AF7A293E3DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F340779F-0F76-4F85-AC8F-AF7A293E3DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C80D95-0E51-46BB-8C18-DB3DE106B9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C80D95-0E51-46BB-8C18-DB3DE106B9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C80D95-0E51-46BB-8C18-DB3DE106B9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C80D95-0E51-46BB-8C18-DB3DE106B9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7F4893-5F9B-495C-BE43-7ED35C4723B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7F4893-5F9B-495C-BE43-7ED35C4723B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7F4893-5F9B-495C-BE43-7ED35C4723B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7F4893-5F9B-495C-BE43-7ED35C4723B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F540D02-D242-494B-9D51-3161A2A7BE16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F540D02-D242-494B-9D51-3161A2A7BE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F540D02-D242-494B-9D51-3161A2A7BE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F540D02-D242-494B-9D51-3161A2A7BE16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E41C2865-AFD7-4AC8-B1AC-C841574815A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E41C2865-AFD7-4AC8-B1AC-C841574815A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E41C2865-AFD7-4AC8-B1AC-C841574815A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E41C2865-AFD7-4AC8-B1AC-C841574815A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0D4A13-BA01-4E0B-86BA-CE69B9A2C5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0D4A13-BA01-4E0B-86BA-CE69B9A2C5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0D4A13-BA01-4E0B-86BA-CE69B9A2C5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0D4A13-BA01-4E0B-86BA-CE69B9A2C5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {903035B7-5399-4EE6-BEEA-38C54DA2C4E5}
+	EndGlobalSection
+EndGlobal
